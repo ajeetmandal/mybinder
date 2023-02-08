@@ -2,7 +2,7 @@
 
 #set -ex
 
-wget --no-check-certificate  https://figshare.com/ndownloader/files/39149009/SCE_DLPFC-n3_tran-etal.rda
+#wget --no-check-certificate  https://figshare.com/ndownloader/files/39149009/SCE_DLPFC-n3_tran-etal.rda
 
 #invoke build --env-name=root --no-kernel
 #invoke demofiles
