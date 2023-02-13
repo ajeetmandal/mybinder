@@ -4,7 +4,11 @@ library("iSEE")
 #library("shiny") # dont need them as "iSEE" have these all
 ###########################################
 # Fetch the data from MendeleyData
-dat <- ("https://data.mendeley.com/api/datasets/4pmcfgy9ss/draft/files/eae29684-04fc-43af-b41d-2a7631a5cac0/SCE_DLPFC-n3_tran-etal.rda")
+#dat <- ("https://data.mendeley.com/api/datasets/4pmcfgy9ss/draft/files/eae29684-04fc-43af-b41d-2a7631a5cac0/SCE_DLPFC-n3_tran-etal.rda")
+#download.file(dat, destfile = "SCE_DLPFC-n3_tran-etal.rda")
+
+# Fetch the data from FigShare
+dat <- ("https://figshare.com/ndownloader/files/39149009/SCE_DLPFC-n3_tran-etal.rda")
 download.file(dat, destfile = "SCE_DLPFC-n3_tran-etal.rda")
 
 sce_small <- load("SCE_DLPFC-n3_tran-etal.rda")
