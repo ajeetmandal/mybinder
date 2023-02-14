@@ -7,6 +7,11 @@ library("iSEE")
 #dat <- ("https://data.mendeley.com/drafts/4pmcfgy9ss#:~:text=SCE_DLPFC%2D-,n3_tran,-%2Detal.rda/SCE_DLPFC-n3_tran-etal.rda")
 #download.file(dat, destfile = "SCE_DLPFC-n3_tran-etal.rda")
 
+#To retrieve an option
+#getOption('timeout')
+#To set an option
+options(timeout=180)
+
 # Fetch the data from FigShare
 dat <- ("https://figshare.com/ndownloader/files/39149009/SCE_DLPFC-n3_tran-etal.rda")
 download.file(dat, destfile = "SCE_DLPFC-n3_tran-etal.rda")
